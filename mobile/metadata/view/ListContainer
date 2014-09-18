@@ -1,0 +1,87 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "listcontainer",
+        "designer|userClassName": "ListContainer",
+        "fullscreen": true,
+        "layout": "fit"
+    },
+    "designerId": "ea3ad747-a4e9-445b-b8d5-8b4b42880925",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "tpl-ahnatkat"
+                ],
+                "grouped": true,
+                "id": "dataList",
+                "store": "Products"
+            },
+            "designerId": "67212cf2-4ee2-4a33-852b-15e251ad3ab4",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<div >\r",
+                            "<img class=\"photo\" src=\"images/{image}\" width=\"40\" height=\"40\"/>\r",
+                            "{productname} <span class='datepos'>{creationdate}</span>\r",
+                            "<br/>\r",
+                            "    <small class='textpos'>{quantity}{mesure},{currentprice}frw/1,{telephone},{district}</small>\r",
+                            "</div>\r",
+                            "\r",
+                            "<div style='display:none'>{umurenge}{akagali}{intara}</div>"
+                        ]
+                    },
+                    "designerId": "846d58a5-e84b-46ac-b76d-d6e6ae3a24ed"
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "center",
+                        "docked": "top"
+                    },
+                    "designerId": "349b51c3-f99f-4c39-8e60-4443ccbc813a",
+                    "cn": [
+                        {
+                            "type": "Ext.field.Search",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoComplete": false,
+                                "itemId": "searchField",
+                                "label": null
+                            },
+                            "designerId": "3583080d-7db1-4d8c-94bb-c5ce15e88959"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "data": [
+            "[{\"id\":\"12\",\"productname\":\"Soya\",\"umurenge\":\"Muhima\",\"firstname\":\"Kamukunde\",\"totalamount\":\"29000\",\"district\":\"Nyarugenge\",\"lastname\":\"Annet\",\"currentprice\":\"50000\",\"quantity\":\"9000\",\"mesure\":\"\",\"creationdate\":\"2014-03-14\",\"province\":\"Umujyi wa Kigali\",\"umudugudu\":\"k\",\"akagali\":\"k\",\"detail\":\"ko\",\"telephone\":\"0788654321\",\"image\":\"3.jpg\"},{\"id\":\"11\",\"productname\":\"Umuceli\",\"umurenge\":\"Muhima\",\"firstname\":\"Kamukunde\",\"totalamount\":\"29000000\",\"district\":\"Nyarugenge\",\"lastname\":\"Annet\",\"currentprice\":\"500\",\"quantity\":\"90\",\"mesure\":\"T\",\"creationdate\":\"2014-03-14\",\"province\":\"Umujyi wa Kigali\",\"umudugudu\":\"k\",\"akagali\":\"k\",\"detail\":\"kok\",\"telephone\":\"0788654321\",\"image\":\"42.jpg\"},{\"id\":\"10\",\"productname\":\"Avoka\",\"umurenge\":\"Muhima\",\"firstname\":\"Kamukunde\",\"totalamount\":\"29000\",\"district\":\"Nyarugenge\",\"lastname\":\"Annet\",\"currentprice\":\"500\",\"quantity\":\"9004\",\"mesure\":\"\",\"creationdate\":\"2014-03-14\",\"province\":\"Umujyi wa Kigali\",\"umudugudu\":\"k\",\"akagali\":\"k\",\"detail\":\"ji\",\"telephone\":\"0788654321\",\"image\":\"31.jpg\"},{\"id\":\"9\",\"productname\":\"Ibishyimbo\",\"umurenge\":\"Muhima\",\"firstname\":\"Kamukunde\",\"totalamount\":\"29000\",\"district\":\"Nyarugenge\",\"lastname\":\"Annet\",\"currentprice\":\"500\",\"quantity\":\"9000\",\"mesure\":\"Kg\",\"creationdate\":\"2014-03-13\",\"province\":\"Umujyi wa Kigali\",\"umudugudu\":\"k\",\"akagali\":\"k\",\"detail\":\"Mozilla\\/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit\\/534.46 (KHTML, like Gecko) Version\\/5.1 Mobile\\/9A334 Safari\\/7534.48.3 Mozilla\\/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit\\/534.46 (KHTML, like Gecko) Version\\/5.1 Mobile\\/9A334 Safari\\/7534.48.3 Mozilla\\/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit\\/534.46 (KHTML, like Gecko) Version\\/5.1 Mobile\\/9A334 Safari\\/7534.48.3 Mozilla\\/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit\\/534.46 (KHTML, like Gecko) Version\\/5.1 Mobile\\/9A334 Safari\\/7534.48.3 Mozilla\\/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) Apple.\",\"telephone\":\"0788654321\",\"image\":\"4.jpg\"},{\"id\":\"8\",\"productname\":\"Imbeba\",\"umurenge\":\"Muhima\",\"firstname\":\"Kamukunde\",\"totalamount\":\"29000\",\"district\":\"Nyarugenge\",\"lastname\":\"Annet\",\"currentprice\":\"500\",\"quantity\":\"9000\",\"mesure\":\"\",\"creationdate\":\"2014-03-13\",\"province\":\"Umujyi wa Kigali\",\"umudugudu\":\"k\",\"akagali\":\"k\",\"detail\":\"ko\",\"telephone\":\"0788654321\",\"image\":\"18.jpg\"},{\"id\":\"7\",\"productname\":\"Inanasi\",\"umurenge\":\"Muhima\",\"firstname\":\"Kamukunde\",\"totalamount\":\"29000\",\"district\":\"Nyarugenge\",\"lastname\":\"Annet\",\"currentprice\":\"500\",\"quantity\":\"9000\",\"mesure\":\"\",\"creationdate\":\"2014-03-13\",\"province\":\"Umujyi wa Kigali\",\"umudugudu\":\"k\",\"akagali\":\"k\",\"detail\":\"ok\",\"telephone\":\"0788654321\",\"image\":\"39.jpg\"},{\"id\":\"6\",\"productname\":\"Ingurube\",\"umurenge\":\"Gashora\",\"firstname\":\"Toto\",\"totalamount\":\"9000000\",\"district\":\"Bugesera\",\"lastname\":\"Kamanzi\",\"currentprice\":\"50000\",\"quantity\":\"8\",\"mesure\":\"\",\"creationdate\":\"2014-03-13\",\"province\":\"Intara y'Iburasirazu\",\"umudugudu\":\"Ruli\",\"akagali\":\"kamatamo\",\"detail\":\"Zimeze sawa wanjye\",\"telephone\":\"0788654321\",\"image\":\"16.jpg\"},{\"id\":\"5\",\"productname\":\"Ikawa\",\"umurenge\":\"Gashora\",\"firstname\":\"Toto\",\"totalamount\":\"29000000\",\"district\":\"Bugesera\",\"lastname\":\"Kamanzi\",\"currentprice\":\"500\",\"quantity\":\"90\",\"mesure\":\"T\",\"creationdate\":\"2014-03-13\",\"province\":\"Intara y'Iburasirazu\",\"umudugudu\":\"Ruli\",\"akagali\":\"kamatamo\",\"detail\":\"poa\",\"telephone\":\"0788654321\",\"image\":\"9.jpg\"},{\"id\":\"4\",\"productname\":\"Ibireti\",\"umurenge\":\"Gashora\",\"firstname\":\"Toto\",\"totalamount\":\"29000\",\"district\":\"Bugesera\",\"lastname\":\"Kamanzi\",\"currentprice\":\"89\",\"quantity\":\"89\",\"mesure\":\"Kg\",\"creationdate\":\"2014-03-13\",\"province\":\"Intara y'Iburasirazu\",\"umudugudu\":\"Ruli\",\"akagali\":\"kamatamo\",\"detail\":\"Aho ni sawa\",\"telephone\":\"0788654321\",\"image\":\"32.jpg\"},{\"id\":\"3\",\"productname\":\"Icyayi\",\"umurenge\":\"Tabagwe\",\"firstname\":\"Uwamahoro\",\"totalamount\":\"100000\",\"district\":\"Nyagatare\",\"lastname\":\"coco\",\"currentprice\":\"100\",\"quantity\":\"100\",\"mesure\":\"Kg\",\"creationdate\":\"2014-02-20\",\"province\":\"Intara y'Iburasirazu\",\"umudugudu\":\"rukumbeli\",\"akagali\":\"rwaza\",\"detail\":\"ok\",\"telephone\":\"2074507306\",\"image\":\"8.jpg\"},{\"id\":\"2\",\"productname\":\"Avoka\",\"umurenge\":\"Rwimbogo\",\"firstname\":\"ntabana\",\"totalamount\":\"100000\",\"district\":\"Gatsibo\",\"lastname\":\"coco\",\"currentprice\":\"100\",\"quantity\":\"100\",\"mesure\":\"Kg\",\"creationdate\":\"2014-02-20\",\"province\":\"Intara y'Iburasirazu\",\"umudugudu\":\"dodo\",\"akagali\":\"\",\"detail\":\"ok ok\",\"telephone\":\"0788654321\",\"image\":\"31.jpg\"},{\"id\":\"1\",\"productname\":\"Amashu\",\"umurenge\":\"Rwimbogo\",\"firstname\":\"ntabana\",\"totalamount\":\"100000\",\"district\":\"Gatsibo\",\"lastname\":\"coco\",\"currentprice\":\"100\",\"quantity\":\"100\",\"mesure\":\"T\",\"creationdate\":\"2014-02-19\",\"province\":\"Intara y'Iburasirazu\",\"umudugudu\":\"dodo\",\"akagali\":\"\",\"detail\":\"ok\",\"telephone\":\"0788654321\",\"image\":\"34.jpg\"}]"
+        ],
+        "designer|userClassName": "Products",
+        "model": "Product",
+        "storeId": "Products"
+    },
+    "mockCfgs": [
+        "data"
+    ],
+    "designerId": "2ace660e-ffaf-4e08-b05d-d45160ca4c8a",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://127.0.0.1/inyungu/index.php?r=sencha"
+            },
+            "designerId": "a08789f7-b7c4-4f8a-a4dc-b2575bc984da",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "data"
+                    },
+                    "designerId": "8768067d-ea01-4338-bd0d-ddbd882fcc01"
+                }
+            ]
+        },
+        {
+            "type": "Ext.util.Grouper",
+            "reference": {
+                "name": "grouper",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "creationedat"
+            },
+            "designerId": "8f0aaa67-7703-4b51-a1ed-6888a4f3f531"
+        }
+    ]
+}

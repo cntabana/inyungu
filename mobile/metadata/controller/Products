@@ -1,0 +1,91 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Products",
+        "stores": [
+            "Products"
+        ]
+    },
+    "designerId": "5b42073e-8972-49bb-96ac-b5ebe860aab7",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "dataList",
+                "selector": "#dataList"
+            },
+            "designerId": "c92fafe9-f8ab-46bc-ab69-2746fc84906a"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "autoCreate": true,
+                "ref": "mainNav",
+                "selector": "#mainnav",
+                "xtype": "mainnav"
+            },
+            "designerId": "4dda67da-6169-46dc-a0e6-47e6ee785280"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "detailCard",
+                "selector": "detailpanel"
+            },
+            "designerId": "a323788a-3f87-49f2-93fc-50e48679d3dc"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "list",
+                "designer|targetType": "Ext.dataview.List",
+                "fn": "onListItemTap",
+                "implHandler": [
+                    "var info,details;\r",
+                    "\r",
+                    "    if (record) {\r",
+                    "       details = Ext.create('Inyungu.view.DetailPanel', {\r",
+                    "            title: 'Ibicuruzwa'\r",
+                    "        });\r",
+                    "\r",
+                    "\r",
+                    "        // set the info\r",
+                    "        info = details.child('#contact').child('#info');\r",
+                    "        info.child('#photo').setData(record.data);\r",
+                    "        info.child('#data').setData(record.data);\r",
+                    "\r",
+                    "\r",
+                    "        this.getMainNav().push(details);\r",
+                    "    }"
+                ],
+                "name": "itemtap"
+            },
+            "designerId": "7172ef72-f04c-4437-9ff5-b869cfce3353"
+        }
+    ]
+}

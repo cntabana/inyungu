@@ -1,0 +1,28 @@
+{
+    "type": "defaultthemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyDefaultTheme"
+    },
+    "designerId": "2946bdc0-b3a8-4e35-9b61-5473a561cf38",
+    "storage": {
+        "needsCompile": false,
+        "simple": {},
+        "nameIndex": 1,
+        "varData": {
+            "Ext.Toolbar": {
+                "globalVars": [
+                    {
+                        "name": "toolbar-input-border-color",
+                        "enabled": true,
+                        "value": "rgba(0,0,0,1)"
+                    }
+                ]
+            }
+        }
+    }
+}

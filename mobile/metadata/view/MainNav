@@ -1,0 +1,33 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mainnav",
+        "designer|userClassName": "MainNav",
+        "fullscreen": true,
+        "itemId": "mainnav"
+    },
+    "designerId": "841bfc9b-de4e-4dd5-ac25-b2ee103362c1",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "hideOnMaskTap": false,
+                "title": "Inyungu"
+            },
+            "designerId": "a9ab8c12-2714-44e3-9a18-e401a6e3b5ec",
+            "masterInstanceId": "ea3ad747-a4e9-445b-b8d5-8b4b42880925"
+        }
+    ]
+}

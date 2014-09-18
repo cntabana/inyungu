@@ -1,0 +1,14 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css1",
+        "id": "inyungu",
+        "url": "inyungu.css"
+    },
+    "designerId": "3f2593df-7bd6-4147-a6b2-e3766cf27b27"
+}

@@ -1,0 +1,63 @@
+{
+    "name": "mobile",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost/inyungu/mobile/",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "androidBuild",
+            "display": "Build Android app"
+        }
+    },
+    "xdsVersion": "3.0.1",
+    "xdsBuild": 1343,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "841bfc9b-de4e-4dd5-ac25-b2ee103362c1",
+            "ea3ad747-a4e9-445b-b8d5-8b4b42880925",
+            "2f2fdee5-dbd1-4cea-9143-48cd11d5fdea"
+        ],
+        "store": [
+            "2ace660e-ffaf-4e08-b05d-d45160ca4c8a"
+        ],
+        "controller": [
+            "5b42073e-8972-49bb-96ac-b5ebe860aab7",
+            "9ffb7678-9c25-42f8-9cf0-190f670be745"
+        ],
+        "model": [
+            "0291519b-5d2c-4799-b547-5c891df88065"
+        ],
+        "resource": [
+            "00c1ce06-3f8b-4111-9124-22b641b68ff6",
+            "2946bdc0-b3a8-4e35-9b61-5473a561cf38",
+            "d29793c0-db08-4245-8ee8-646b79ed5162",
+            "3f2593df-7bd6-4147-a6b2-e3766cf27b27"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

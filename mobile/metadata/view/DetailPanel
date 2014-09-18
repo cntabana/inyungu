@@ -1,0 +1,167 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "detailpanel",
+        "designer|userClassName": "DetailPanel"
+    },
+    "designerId": "2f2fdee5-dbd1-4cea-9143-48cd11d5fdea",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "info",
+                "id": "contact",
+                "title": "Contact"
+            },
+            "designerId": "1cb77c60-4113-480d-bb95-12903aebc2ee",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "info",
+                        "layout": "hbox",
+                        "padding": 10
+                    },
+                    "designerId": "7455bf82-395d-4eb7-bb02-a7c0575e9feb",
+                    "cn": [
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "tpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "tpl",
+                                "implHandler": [
+                                    "<img class=\"photo\" src=\"../images/products/{image}\" width=\"100\" height=\"100\"/>;\r",
+                                    "<h2>{productname}</h2><div class=\"info\">{firstname},{telephone}<br/>\r",
+                                    "</div>"
+                                ]
+                            },
+                            "designerId": "3a3e548c-c2b2-485b-9693-096ff3ca9452"
+                        },
+                        {
+                            "type": "Ext.Component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 100,
+                                "id": "photo",
+                                "width": 100
+                            },
+                            "designerId": "64b5712c-8c43-4893-80d2-d285e1ea344b",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<img class=\"photo\" src=\"images/{image}\" width=\"100\" height=\"100\"/>"
+                                        ]
+                                    },
+                                    "designerId": "39ec9db0-3742-4c0a-858c-f30d96cccd58"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "data",
+                                "padding": 10
+                            },
+                            "designerId": "7fa47432-166c-4df0-9b6e-cda520b318c8",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<h2>{productname}</h2><div class=\"info\">\r",
+                                            "\r",
+                                            "<b>Amazina</b>   : {firstname} {lastname}<br/>\r",
+                                            "<b>Telephoni</b> : {telephone}<br/>\r",
+                                            "<b>Ingano</b>    : {quantity}{mesure}<br/>\r",
+                                            "<b>Igiciro</b>   : {currentprice}frw<br/>\r",
+                                            "<b>Igiciro c</b> : {totalamount}frw<br/>\r",
+                                            "<b>Intara</b>    : {province}<br/>\r",
+                                            "<b>Akarere</b>  : {district}<br/>\r",
+                                            "<b>Umurenge</b>  : {umurenge}<br/>\r",
+                                            "<b>Akagali</b>   : {akagali}<br/>\r",
+                                            "<b>Italiki</b>   : {creationdate}<br/>\r",
+                                            "<b>Muri make</b> : <p class=\"detail\">{detail}</p><br/>\r",
+                                            "\r",
+                                            "</div>"
+                                        ]
+                                    },
+                                    "designerId": "94ec805e-4e6d-4890-8777-d97567274ed5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "compose",
+                "title": "About Us"
+            },
+            "designerId": "2866654a-5de8-4a23-970a-ee20fd87c8c8"
+        },
+        {
+            "type": "Ext.tab.Bar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "docked": "bottom",
+                "hidden": false,
+                "id": null
+            },
+            "designerId": "60c3db40-6b69-4dc0-97af-cbcdbe913c48"
+        }
+    ]
+}
